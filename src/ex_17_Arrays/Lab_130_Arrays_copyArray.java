@@ -10,3 +10,4 @@ public class Lab_130_Arrays_copyArray {
         System.out.println(copy[4]);
     }
 }
+
