@@ -27,11 +27,34 @@ class Pramod{
     static int a = 10;
     int b = 30;
 
+    public static void main(String[] args) {
+        Pramod p1 = new Pramod();
+    }
+
+
+
+    static {
+        // This is a static block
+        // This is called whenever a class is loaded
+        System.out.println("Hi, this is called, becoz class is loaded");
+    }
+
      static void drink(){
+
         System.out.println("Drinking");
     }
 
     void eat(){
+
         System.out.println("Eating");
+       drink();
+       sleep();
+        System.out.println();
+    }
+
+    void sleep(){
+
+        System.out.println("sleep");
+        eat();
     }
 }

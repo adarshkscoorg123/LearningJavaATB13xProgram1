@@ -3,7 +3,7 @@ package ex_14_Java_Functions;
 public class Lab_097_Method_functions {
 
     // step 1 - function definition
-    static void f1(){  //
+     static void f1(){  //
         System.out.println("Hi, creating a function");
     }
 
@@ -13,6 +13,7 @@ public class Lab_097_Method_functions {
 
     public static void main(String[] args) {
         // step 2- function / method call
+        Lab_097_Method_functions l1 = new Lab_097_Method_functions();
         f1();
         name_of_function();
     }
