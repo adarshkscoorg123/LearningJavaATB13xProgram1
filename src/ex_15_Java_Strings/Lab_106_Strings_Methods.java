@@ -13,5 +13,7 @@ public class Lab_106_Strings_Methods {
         System.out.println(s1.toLowerCase());
         System.out.println(s1.concat("E"));
         System.out.println(s1);
+
+
     }
 }

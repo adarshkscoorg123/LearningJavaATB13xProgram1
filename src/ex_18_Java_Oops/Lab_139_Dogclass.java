@@ -6,6 +6,7 @@ public class Lab_139_Dogclass {
     String breed = "Chow-chow";
     String color_eyes= "black";
 
+
     // below are the methods
     void walk(){
         System.out.println("Dog is Walking");
