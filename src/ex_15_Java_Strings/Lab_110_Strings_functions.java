@@ -76,7 +76,14 @@ public class Lab_110_Strings_functions {
 
 
         // exception
-        System.out.println(name.charAt(10)); // String out of bound exception
+        //System.out.println(name.charAt(10)); // String out of bound exception
 
+        StringBuilder sb = new StringBuilder("Adarsh");
+        System.out.println(sb.append(" Suresh"));
+        System.out.println(sb);
+
+        String sa = "Hello";  // SCP
+        System.out.println(sa.concat(" World"));
+        System.out.println(sa);
     }
 }

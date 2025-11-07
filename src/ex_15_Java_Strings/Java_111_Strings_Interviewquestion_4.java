@@ -10,5 +10,8 @@ public class Java_111_Strings_Interviewquestion_4 {
         System.out.println(str1 == str2);   // true
         System.out.println(str1 == str3);   // false
         System.out.println(str1.equals(str3)); // true
+        int length = str1.length();
+        System.out.println(length);
+
     }
 }
