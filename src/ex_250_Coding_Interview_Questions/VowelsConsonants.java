@@ -1,0 +1,48 @@
+package ex_250_Coding_Interview_Questions;
+
+import java.util.Scanner;
+
+public class VowelsConsonants {
+
+    public static boolean isVowel(char ch) {
+        ch = Character.toLowerCase(ch);
+        return ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u';
+    }
+
+    // Helper method to check if a character is a consonant
+    public static boolean isConsonant(char ch) {
+        ch = Character.toLowerCase(ch);
+        return ch >= 'a' && ch <= 'z' && !isVowel(ch);
+    }
+
+    public static void main(String[] args) {
+
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter a string: ");
+        String input = scanner.nextLine();
+
+            // Step 2: Initialize the vowel and consonant counters
+            int vowelCount = 0;
+            int consonantCount = 0;
+
+            // Step 3: Iterate through the string
+            for (int i = 0; i < input.length(); i++) {
+                char ch = input.charAt(i);
+
+                // Check if the character is a vowel
+                if (isVowel(ch)) {
+                    vowelCount++;
+                }
+                // Check if the character is a consonant
+                else if (isConsonant(ch)) {
+                    consonantCount++;
+                }
+            }
+
+            // Step 4: Display the counts
+            System.out.println("Number of vowels: " + vowelCount);
+            System.out.println("Number of consonants: " + consonantCount);
+        }
+
+    }
+

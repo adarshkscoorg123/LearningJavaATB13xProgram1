@@ -10,9 +10,11 @@ public class Lab_007_Variables_MainMethod {
 
     public static void main(int args) {
 
+        System.out.println("This is second program");
     }
 
     public static void main() {
+        System.out.println("This is third program");
 
     }
 }

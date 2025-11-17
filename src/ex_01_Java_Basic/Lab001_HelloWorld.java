@@ -6,7 +6,6 @@ public class Lab001_HelloWorld {
 
         System.out.println("I am running java program");
 
-
     }
 
 }
