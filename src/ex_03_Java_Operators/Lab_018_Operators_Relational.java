@@ -4,9 +4,9 @@ public class Lab_018_Operators_Relational {
 
     public static void main(String[] args) {
         // < less than
-        // <= less tahn or equal to
+        // <= less than or equal to
         // > Greater
-        // >= Greater or equal
+        // >= Greater than or equal
         // == Equal to
         // != not equal
         // All of the above examples will result in boolean output

@@ -4,7 +4,7 @@ public class Lab_014_Task01 {
 
     public static void main(String[] args) {
 
-        int num = 6;
+        int num = 8;
 //First way of solving the task
 
         /*System.out.printf("%d * %d = %d", 9,1,9).println();

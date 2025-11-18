@@ -4,8 +4,8 @@ public class Lab_012_printf {
 
     public static void main(String[] args) {
         int a = 10;
-        System.out.println("print command print without the new line");
-        System.out.print("Hello");
+        System.out.println("print command: print with the new line");
+        System.out.print("Hello ");
         System.out.println("World");
 
         System.out.println(a);

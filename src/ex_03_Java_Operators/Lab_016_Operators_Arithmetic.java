@@ -23,7 +23,8 @@ public class Lab_016_Operators_Arithmetic {
         System.out.println(a%b);
 
         System.out.println("a+b");
-        System.out.println(16%7);
+        System.out.println(17%7);
+        System.out.println(17/7);
 
     }
 }
