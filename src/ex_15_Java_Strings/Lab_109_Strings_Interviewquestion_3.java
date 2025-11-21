@@ -31,7 +31,5 @@ public class Lab_109_Strings_Interviewquestion_3 {
         // equalsIgnoreCase -> ignores the upper case or lower case
         // equals            -> compares the values
 
-
-
     }
 }
