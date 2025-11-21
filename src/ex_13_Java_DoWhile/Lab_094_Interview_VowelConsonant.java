@@ -15,7 +15,7 @@ public class Lab_094_Interview_VowelConsonant {
             System.out.println(ch + " is a vowel");
         }
         else if (ch >= 'a' && ch <= 'z'){
-            //System.out.println(ch + " is a consonant");
+            System.out.println(ch + " is a consonant");
         }
 
         else {

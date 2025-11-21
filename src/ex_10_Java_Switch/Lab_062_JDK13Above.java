@@ -4,7 +4,7 @@ public class Lab_062_JDK13Above {
 
     public static void main(String[] args) {
 
-        int itemcode = 004;
+        int itemcode = 002;
 
         switch (itemcode){
             // In JDK > 13

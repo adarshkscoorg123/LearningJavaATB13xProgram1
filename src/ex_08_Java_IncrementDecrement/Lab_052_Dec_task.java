@@ -8,5 +8,7 @@ public class Lab_052_Dec_task {
         int b = a++; // b = 5  a = 6
 
         System.out.println("a:" +a+", b:" + b);
+
+        // b=5  a =6
     }
 }

@@ -4,7 +4,7 @@ public class Lab_063_JDK13above_interview {
 
     public static void main(String[] args) {
 
-        int itemcode = 005;
+        int itemcode = 001;
 
         switch (itemcode){
 

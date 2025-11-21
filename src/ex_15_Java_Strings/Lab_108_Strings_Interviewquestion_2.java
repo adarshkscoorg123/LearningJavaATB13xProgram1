@@ -7,7 +7,7 @@ public class Lab_108_Strings_Interviewquestion_2 {
         String s1 = "Hello"; // 1 string is present in String constant pool
         String s4 = "Hello"; // still 1 string is present in String constant pool, since both have same addresses(references)
         String s10 = "Hello"; // still 1 string is present in String constant pool
-        String s11 = "HELLO";
+        String s11 = "HELLO"; // different string is present
         System.out.println(s1==s4);// Here references are equal since both point to same in string constant pool
         System.out.println(s1.equals(s4)); // Here values are also equal
         System.out.println(s4==s10); // Here references are also equal
@@ -22,8 +22,7 @@ public class Lab_108_Strings_Interviewquestion_2 {
         String s3 = new String("Hello");// created in object Area
         String s5 = new String("World");// created in object Area
 
-        // SCP - 1 value
-        // OA- 3 values
+
         System.out.println(s2==s3);  // false
         System.out.println(s2.equals(s3)); // true
         System.out.println(s3==s5);    // false

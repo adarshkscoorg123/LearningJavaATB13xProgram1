@@ -8,7 +8,7 @@ public class Lab_43_UserInput_Scanner_02 {
 
         Scanner scanner = new Scanner(System.in);
       //  String input
-        System.out.println(" Enter the String");
+        System.out.println("Enter the String");
         String s = scanner.next();
         System.out.println(s);
 

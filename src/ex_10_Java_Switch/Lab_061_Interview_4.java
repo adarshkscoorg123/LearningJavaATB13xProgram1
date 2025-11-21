@@ -16,6 +16,10 @@ public class Lab_061_Interview_4 {
                     break;
             */
 
+            default:
+                System.out.println("No match");
+                break;
+
         }
     }
 }

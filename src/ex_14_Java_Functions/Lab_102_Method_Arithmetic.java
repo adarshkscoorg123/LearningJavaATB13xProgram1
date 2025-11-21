@@ -60,19 +60,19 @@ public class Lab_102_Method_Arithmetic {
         }
 
         int result_sum = sum_of_numbers(a, b);
-        System.out.println(result_sum);
+        System.out.println("Sum is " +result_sum);
 
         int result_sub = subtract_of_numbers(a, b);
-        System.out.println(result_sub);
+        System.out.println("Subtraction is " +result_sub);
 
         int mul = multiply_of_numbers(a, b);
-        System.out.println(mul);
+        System.out.println("Multiply is " +mul);
 
         int div = division_of_numbers(a, b);
-        System.out.println(div);
+        System.out.println("Div is " +div);
 
         int mod = mod_of_numbers(a, b);
-        System.out.println(mod);
+        System.out.println("modulus is " +mod);
 
     }
 }
