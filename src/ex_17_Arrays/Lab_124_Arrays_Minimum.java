@@ -14,7 +14,7 @@ public class Lab_124_Arrays_Minimum {
 
     public static void main(String[] args) {
 
-        int[] array2 = {25, 14, 56, 15, 36, 12, 77, 18, 29, 49};
+        int[] array2 = {25, 14, 56, 15, 36, 12, 9,77, 18, 29, 49};
 
         int min_output = give_me_min(array2);
         System.out.println(min_output);

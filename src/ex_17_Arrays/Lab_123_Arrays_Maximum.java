@@ -18,7 +18,7 @@ public class Lab_123_Arrays_Maximum {
     public static void main(String[] args) {
     // find the maximum element in the array
 
-        int[] array = {25, 14, 56, 15, 36, 55, 77, 18, 29, 49};
+        int[] array = {25, 14, 56, 15, 36, 55, 77, 88, 29, 49};
 
         // first way to sort the array
 

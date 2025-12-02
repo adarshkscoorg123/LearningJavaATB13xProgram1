@@ -21,6 +21,7 @@ public class Lab_119_Arrays {
         System.out.println(is_married[1]);
         System.out.println(is_married[2]);
         System.out.println(is_married[3]);
+        System.out.println(is_married.length);
 
         char ch = 'A';
         String name = "Pramod";          // string is actually an array of characters

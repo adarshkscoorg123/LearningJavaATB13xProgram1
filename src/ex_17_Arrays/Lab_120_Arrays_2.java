@@ -13,6 +13,7 @@ public class Lab_120_Arrays_2 {
         System.out.println(marks[2]);
         System.out.println("--------");
 
+        // Second way to create an array
         int[] marks2 = new int[5];
         String[] names = new String[3];
         System.out.println(marks2.length);

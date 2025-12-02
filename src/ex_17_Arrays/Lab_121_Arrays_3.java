@@ -12,7 +12,7 @@ public class Lab_121_Arrays_3 {
         System.out.println(names[1]);
 
         // length()- denotes length of the string
-        String name2 = "Sairam";
+        String name2 = "Sairam123";
         System.out.println(name2.length());
 
         boolean[] is_male_data = new boolean[2];

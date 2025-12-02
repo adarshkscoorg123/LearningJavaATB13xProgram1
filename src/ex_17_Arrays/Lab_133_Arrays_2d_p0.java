@@ -12,5 +12,19 @@ public class Lab_133_Arrays_2d_p0 {
         System.out.println(matrix_abc.length); // 2 ,it gives the length of the row
         System.out.println(matrix_abcd.length); // 3, it gives the length of the row
 
+        System.out.println(matrix[0].length); // 3. it gives the length of the column
+        System.out.println(matrix[1].length);
+        System.out.println(matrix[2].length);
+
+        System.out.println(matrix_abc[0].length); // 3 ,it gives the length of the column
+        System.out.println(matrix_abc[1].length);
+
+
+        System.out.println(matrix_abcd[0].length); // 1, it gives the length of the column
+        System.out.println(matrix_abcd[1].length);
+        System.out.println(matrix_abcd[2].length);
+
+
+
     }
 }

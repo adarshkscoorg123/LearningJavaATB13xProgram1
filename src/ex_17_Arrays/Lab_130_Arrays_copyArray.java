@@ -8,6 +8,9 @@ public class Lab_130_Arrays_copyArray {
         int[] copy = new int[original.length];
         System.arraycopy(original, 0, copy, 0, original.length);
         System.out.println(copy[4]);
+        System.out.println(copy[0]);
+        System.out.println(copy[1]);
+        System.out.println(copy[2]);
     }
 }
 

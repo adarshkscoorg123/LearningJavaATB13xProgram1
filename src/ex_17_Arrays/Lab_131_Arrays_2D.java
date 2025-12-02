@@ -17,6 +17,7 @@ public class Lab_131_Arrays_2D {
         };
 
         System.out.println(array1_2d[1][2]);
+        System.out.println(array1_2d[1][1]);
 
         // Second way to create 2d array
 
@@ -32,6 +33,7 @@ public class Lab_131_Arrays_2D {
         };
 
         System.out.println(array2_2d[1][1]);
+        System.out.println(array2_2d[2][0]);
 
         // Third way to create an array
 
