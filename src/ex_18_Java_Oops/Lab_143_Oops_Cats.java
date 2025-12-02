@@ -17,6 +17,7 @@ public class Lab_143_Oops_Cats {
         System.out.println(c3.name); // Gives the value
 
         c1.running();
+        c3.running();
         //c2.running(); // cannot be called because c2 object is not created->
         // -> just a reference is created
 

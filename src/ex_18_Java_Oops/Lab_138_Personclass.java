@@ -24,7 +24,7 @@ public class Lab_138_Personclass {
         System.out.println("sleeping");
     }
 
-    String food(int a ){
+    public String food(int a ){
         System.out.println("Which food");
         return "ab";
     }
