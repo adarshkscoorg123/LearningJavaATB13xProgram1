@@ -8,6 +8,7 @@ public class Lab_154_Constructors_ex5 {
         Person_155 p2 = new Person_155("Amith", 9423456789l, "Mysore");
 
         System.out.println(p1.phone);
+        System.out.println(p1.name);
         System.out.println(p1.address);
         System.out.println("--------------");
 

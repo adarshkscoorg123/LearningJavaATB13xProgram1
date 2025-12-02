@@ -2,7 +2,7 @@ package ex_19_Java_Constructors;
 
 public class Baby_146 {
 
-    String name; // Instance variables/ member variables/ attributes
+    String name="Addy"; // Instance variables/ member variables/ attributes
 
     // Default constructor
 

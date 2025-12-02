@@ -25,6 +25,8 @@ public class Lab_149_Constructors_ex3 {
         System.out.println(b1.name);
         b1.name = "Adarsh";
         System.out.println(b1.name);
+        Baby_151 b2 = new Baby_151();
+        System.out.println(b2.name);
 
     }
 
