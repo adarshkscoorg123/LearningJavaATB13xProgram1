@@ -19,6 +19,12 @@ public class Lab_practiceSessions {
         } else {
             System.out.println("The two strings are not equal");
         }
+        if (str3.equals(str4)) {
+            System.out.println("The two strings are equal");
+        } else {
+            System.out.println("The two strings are not equal");
+        }
+
 
         String str5 = "Hello, world!";
         String str6 = "Hello, world!";

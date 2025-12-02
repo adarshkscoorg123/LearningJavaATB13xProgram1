@@ -3,7 +3,7 @@ package ex_15_Java_Strings;
 public class Lab_practiceSessions_3 {
 
     public static void main(String[] args) {
-        String str = " Hello, world! ";
+        String str = "  Hello, world! ";
         String strTrimmed = str.trim(); // it removes whitespace from the string
         System.out.println("The original string is: " + str);
         System.out.println("The trimmed string is: " + strTrimmed);
