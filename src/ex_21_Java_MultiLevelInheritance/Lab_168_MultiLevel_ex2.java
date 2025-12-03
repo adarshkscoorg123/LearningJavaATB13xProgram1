@@ -13,9 +13,10 @@ public class Lab_168_MultiLevel_ex2 {
 
         GrandFather_163 grandFather = new Son_165();
         grandFather.home();
+        System.out.println("--------------");
 
-        //GrandFather_163 grandFather1 = new Father_164();
-        //grandFather1.home();
+        GrandFather_163 grandFather1 = new Father_164();
+        grandFather1.home();
 
 
     }

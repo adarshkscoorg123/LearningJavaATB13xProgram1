@@ -2,7 +2,7 @@ package ex_23_Java_Polymorphism;
 
 public class MathOperations_178 {
 
-    // In the same class, when you have a method with same name methods but different
+    // In the same class, when you have methods with same method name, but different
     // arguments and different return types
 
     int add(int a, int b){

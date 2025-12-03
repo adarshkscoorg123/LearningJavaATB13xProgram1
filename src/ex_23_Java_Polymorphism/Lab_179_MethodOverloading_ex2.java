@@ -17,8 +17,5 @@ public class Lab_179_MethodOverloading_ex2 {
         double d1 = h1.task(6.54, 3.14);
         System.out.println(d1);
 
-
-
-
     }
 }
