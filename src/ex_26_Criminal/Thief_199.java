@@ -11,11 +11,13 @@ public class Thief_199 extends Cop_200{
 
     public static void main(String[] args) {
         Thief_199 t1 = new Thief_199(450);
-        /*
+
         t1.iCard = "zabi";
         t1.canIShoot();
-        t1.gun = 200; */ //the above can be accessed if icard, canIShoot and
+        System.out.println(t1.gun);
+        t1.gun = 200; //the above can be accessed if icard, canIShoot and
                          // gun are made protected through Inheritance
+        System.out.println(t1.gun);
     }
 
 
