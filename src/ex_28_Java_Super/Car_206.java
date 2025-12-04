@@ -18,7 +18,7 @@ public class Car_206  extends Vehicle_205{
     }
 
     Car_206(int a ){
-        super(0); // Parents parametrized constructor
+        super(10); // Parents parametrized constructor
         System.out.println("parametrized constructor of child" + a);
     }
 
@@ -26,6 +26,6 @@ public class Car_206  extends Vehicle_205{
     void display() {
         System.out.println("Child overrides");
         System.out.println(super.maxSpeed); // Parents instance variable call
-        System.out.println(this.maxSpeed); // this means my(childs) variables call
+        System.out.println(this.maxSpeed); // this means my(child's) variables call
     }
 }

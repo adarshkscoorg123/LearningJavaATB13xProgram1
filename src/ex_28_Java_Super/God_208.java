@@ -16,5 +16,4 @@ public class God_208 {
         System.out.println("God !!");
     }
 
-
 }

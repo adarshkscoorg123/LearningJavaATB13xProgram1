@@ -11,11 +11,16 @@ public class Lab_210_Abtstraction {
                                         // in nature
 
         Son_213 s1 = new Son_213();
-        Father_212 f1 = new Son_213(); // dynamic dispatch
         s1.loan50k();
         s1.property();
         s1.loan25k();
         s1.gold();
+
+        Father_212 f1 = new Son_213(); // dynamic dispatch
+//        f1.gold();   // All these can be accessed since son extends father
+//        f1.loan25k();
+//        f1.loan50k();
+//        f1.property();
 
     }
 

@@ -24,5 +24,4 @@ public class Animal_209 extends God_208 {
         System.out.println(this.gold);
     }
 
-
 }
