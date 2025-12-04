@@ -17,6 +17,13 @@ class Test1 extends A1{}
 // class Test2 extends A1,B1{} - This is not allowed as there is
 // no multiple inheritance in Java
 
+class Test2 extends Pramod{
+    @Override
+    void pp() {
+        System.out.println("Overriding");
+    }
+}
+
 class Test3 implements I11{}
 class Test4 implements I11,I12{} // possible
 class Test5 extends A1 implements I11,I12{}
