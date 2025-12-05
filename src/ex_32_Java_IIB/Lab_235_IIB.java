@@ -6,10 +6,9 @@ public class Lab_235_IIB {
     //Instance initialization block == IIB
     //I will be executed when object is created
     public static void main(String[] args) {
-        Ada a = new Ada();
-        Ada a2 = new Ada();
-        Ada a3 = new Ada();
-
+        Ad a = new Ad();
+        Ad a2 = new Ad();
+        Ad a3 = new Ad();
     }
 }
 
@@ -31,6 +30,5 @@ class Ad{
     static {
         System.out.println("Static block will be called once");
     }
-
 
 }

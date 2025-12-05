@@ -4,6 +4,7 @@ public class Lab_237_IIB_ex2 {
 
     public static void main(String[] args) {
         Ada a1 = new Ada();
+        Ada a2 = new Ada();
     }
 
 }
