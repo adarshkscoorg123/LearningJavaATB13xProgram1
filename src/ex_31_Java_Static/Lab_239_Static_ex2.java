@@ -29,6 +29,10 @@ class Baap {
         System.out.println("Static function");
         //System.out.println(a); cannot access
         //beta(); cannot access
+//        Baap b2 = new Baap(); Can access if we create object and use
+//        System.out.println(b2.a);
+//        b2.beta();
+
     }
 
 }

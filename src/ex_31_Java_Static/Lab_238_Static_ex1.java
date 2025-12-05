@@ -12,8 +12,9 @@ public class Lab_238_Static_ex1 {
 
         System.out.println(ad.b);
         System.out.println(ad2.b);
-        System.out.println("------------");
         System.out.println(Adarsh1.b);
+        System.out.println("------------");
+
 
         ad.b = 25;
         System.out.println(ad2.b);
@@ -27,9 +28,7 @@ public class Lab_238_Static_ex1 {
         ad2.displayValue();
 
         Adarsh1.staticMethodAd();
-
     }
-
 }
 
 class Adarsh1{
@@ -50,10 +49,15 @@ class Adarsh1{
     static void staticMethodAd(){
         System.out.println("I will be called when class is loaded");
         System.out.println(b);
-        //System.out.println(a); static methods cannot access non-static variables->
-        // unless you create and use it
-        // displayValue(); non static methods are not allowed directly in static methods->
-        // unless you create and use it
-    }
 
+        //System.out.println(a); static methods cannot access non-static variables->
+        // unless you create and use it( See the below example)
+        //Adarsh1 ad = new Adarsh1(10);
+        //System.out.println(ad.a);
+
+        // displayValue(); non static methods are not allowed directly in static methods->
+        // unless you create and use it( See the below example)
+        //Adarsh1 ad = new Adarsh1(10);
+        //ad.displayValue();
+    }
 }

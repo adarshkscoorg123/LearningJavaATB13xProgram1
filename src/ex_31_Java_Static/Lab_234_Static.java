@@ -31,8 +31,6 @@ class Pramod{
     public static void main(String[] args) {
         Pramod p1 = new Pramod();
         drink();
-
-
     }
 
     static {
