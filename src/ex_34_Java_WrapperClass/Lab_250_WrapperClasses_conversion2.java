@@ -19,5 +19,4 @@ public class Lab_250_WrapperClasses_conversion2 {
 
     }
 
-
 }

@@ -12,13 +12,26 @@ public class Java_251_AllTheConcepts {
         samsung.display();
         System.out.println(Mobile.mobile_carrier);
         Mobile.switchOnAirplaneMode();
-
     }
-
 
 }
 
 class Mobile extends OldPhone{
+
+    private Integer phone;
+    private String name;
+    private Double price;
+    static  String mobile_carrier = "airtel";
+
+    public Mobile() {
+        System.out.println("Default constructor");
+    }
+
+    public Mobile(Integer phone, String name, Double price) {
+        this.phone = phone;
+        this.name = name;
+        this.price = price;
+    }
 
     public Integer getPhone() {
         return phone;
@@ -44,21 +57,6 @@ class Mobile extends OldPhone{
         this.price = price;
     }
 
-    private Integer phone;
-    private String name;
-    private Double price;
-    static String mobile_carrier = "airtel";
-
-    public Mobile() {
-        System.out.println("Default constructor");
-    }
-
-    public Mobile(Integer phone, String name, Double price) {
-        this.phone = phone;
-        this.name = name;
-        this.price = price;
-    }
-
     void display(){
         System.out.println(phone + name + price);
     }
@@ -75,7 +73,6 @@ class Mobile extends OldPhone{
         System.out.println("Common Airplane mode");
     }
 
-
 }
 
 class OldPhone implements SIMCard{
@@ -89,7 +86,6 @@ class OldPhone implements SIMCard{
     void calling(){
         System.out.println("dialpad");
     }
-
 
 }
 

@@ -7,7 +7,10 @@ public enum Colors_245 {
     BLUE("#3377FF"),
     YELLOW("#4477FF");
 
+    private String hexCode;
+
     Colors_245(String hexCode) {
+
         this.hexCode = hexCode;
     }
 
@@ -15,7 +18,7 @@ public enum Colors_245 {
         return this.hexCode;
     }
 
-    private String hexCode;
+
 
 
 }

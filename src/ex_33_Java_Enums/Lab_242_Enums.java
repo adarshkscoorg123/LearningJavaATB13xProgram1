@@ -9,7 +9,6 @@ public class Lab_242_Enums {
         System.out.println(Project_names.google);
     }
 
-
 }
 
 enum Day{
