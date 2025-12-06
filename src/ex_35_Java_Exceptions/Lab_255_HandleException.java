@@ -21,8 +21,5 @@ public class Lab_255_HandleException {
         //JVM knows that this may lead to file not found exception
         // so it is telling to handle it
 
-
-
-
     }
 }

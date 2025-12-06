@@ -20,8 +20,8 @@ public class Lab_261_TryCatch_IQ {
             //e.printStackTrace();
         }
 
-        catch (Exception e){
-            System.out.println(e.getMessage());
+        catch (Exception e1){
+            System.out.println(e1.getMessage());
             //e.printStackTrace();
         }
         System.out.println("End of the program");

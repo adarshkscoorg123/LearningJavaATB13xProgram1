@@ -10,6 +10,7 @@ public class Lab_259_TryCatch_MultipleAlternate {
             s1.trim();
             int a = 10/0;
         }
+
         catch (NullPointerException | ArithmeticException e){
             System.out.println(e.getMessage());
             System.out.println("Null pointer or Arithmetic exception");

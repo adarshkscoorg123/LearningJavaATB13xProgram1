@@ -22,6 +22,5 @@ public class Lab_262_TryCatch_Finally {
             sc.close();
         }
 
-
     }
 }

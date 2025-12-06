@@ -13,6 +13,8 @@ public class Lab_258_Try_Catch_Multiple_IQ {
             System.out.println(e.getMessage());
             System.out.println("Null pointer error");
         }
+//        String s2 = s1.trim();
+//        System.out.println(s2);
 
         try {
             int a = 10/0;
