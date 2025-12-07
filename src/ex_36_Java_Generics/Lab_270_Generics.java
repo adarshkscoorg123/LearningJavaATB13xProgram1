@@ -3,7 +3,8 @@ package ex_36_Java_Generics;
 public class Lab_270_Generics {
 
     public static void main(String[] args) {
-        temp_sum(10,20);
+        int sum_integer= temp_sum(10,20);
+        System.out.println(sum_integer);
         temp_sum(3.35, 4.45);
         temp_sum("Pramod", "Dutta");
 
