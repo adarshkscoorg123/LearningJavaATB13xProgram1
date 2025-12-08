@@ -25,6 +25,7 @@ public class Lab_276_ArrayList {
         while(iterator.hasNext()){
             System.out.println(iterator.next());
         }
+        System.out.println("-----------------");
 
         List l1 = new ArrayList<>();
         l1.add(123);

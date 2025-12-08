@@ -8,11 +8,12 @@ public class Lab_274_collections_list {
 
         Integer[] array = new Integer[15];
         array[0]= 12;
-        //array[1] = "Pramod"; not possible
+        System.out.println(array[0]);
+        //array[1] = "Pramod";// not possible
 
         // Disadvantages of an array
         // Fixed size, similar data type, Doesn't grow automatically
-        // Less elements-> wastage of memory
+        // Fewer(less) elements-> wastage of memory
     }
 
 

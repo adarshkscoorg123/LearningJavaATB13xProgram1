@@ -19,7 +19,6 @@ public class Lab_284_AL_Students {
 
         System.out.println(myStudents);
 
-
     }
 }
 

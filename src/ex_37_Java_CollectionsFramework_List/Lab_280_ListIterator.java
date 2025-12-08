@@ -26,5 +26,6 @@ public class Lab_280_ListIterator {
         while(list.hasPrevious()){
             System.out.println(list.previous());
         }
+        System.out.println(arrayList);
     }
 }
