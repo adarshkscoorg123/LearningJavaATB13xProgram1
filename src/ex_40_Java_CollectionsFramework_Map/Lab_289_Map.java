@@ -15,7 +15,6 @@ public class Lab_289_Map {
         map.put("Roll no", 1);
         map.put("PhoneNo", "9036092015");
         map.put(5 ,"Addy");
-
         System.out.println(map);
 
         // In LinkedHashMap, insertion order is maintained according to Keys

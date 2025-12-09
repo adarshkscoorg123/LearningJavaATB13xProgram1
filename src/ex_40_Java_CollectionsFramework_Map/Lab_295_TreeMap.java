@@ -25,9 +25,5 @@ public class Lab_295_TreeMap {
         System.out.println(values.remove("Ninth"));
         System.out.println(values);
 
-
-
-
-
     }
 }

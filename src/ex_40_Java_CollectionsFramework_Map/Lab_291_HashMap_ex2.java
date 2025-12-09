@@ -38,6 +38,5 @@ public class Lab_291_HashMap_ex2 {
         System.out.println(map.remove("id8")); //removes the key and value
         System.out.println(map);
 
-
     }
 }
