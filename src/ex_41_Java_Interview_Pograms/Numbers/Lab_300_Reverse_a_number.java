@@ -6,7 +6,7 @@ public class Lab_300_Reverse_a_number {
 
     public static void main(String[] args) {
 
-        int num = 1234;
+        int num = 12345;
         int reversed = 0;
 
         while (num != 0) {
@@ -22,7 +22,6 @@ public class Lab_300_Reverse_a_number {
 //        - We add this digit to reversed, making the new number grow step by step.
 //        - num /= 10 removes the last digit from the original number.
 //        When the loop finishes, reversed contains 4321.
-
 
     }
 }
